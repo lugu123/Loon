@@ -4,7 +4,7 @@
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/ssa.png
 
 [Script]
-http-response ^http[s]?:\/\/.*(kcfiysi|yuwhuxuw|vedlfer|qxl2bsw3|21zhf4ji).*api\/app/(ping\/config|media\/home|user\/info|media\/play|comics\/detail|post\/list) script-path=https://raw.githubusercontent.com/lugu123/Loon/refs/heads/main/%E8%84%9A%E6%9C%AC/%E9%BA%BB%E8%B1%86%E5%B0%84%E5%8C%BA_%E5%BE%AE%E5%8B%83_%E9%80%BC%E5%93%A9%E9%80%BC%E5%93%A9%E8%A7%A3%E9%94%81.js, requires-body=true, tag=Lsp
+http-response ^http[s]?:\/\/.*(kcfiysi|yuwhuxuw|vedlfer|qxl2bsw3|21zhf4ji).*api\/app/(ping\/config|media\/home|user\/info|media\/play|comics\/detail|post\/list) script-path=https://raw.githubusercontent.com/lugu123/Loon/refs/heads/main/Scripts/Lsp.js, requires-body=true, tag=Lsp
 
 [MITM]
 hostname = *kcfiysi*, *yuwhuxuw.com, *vedlfer.com, *qxl2bsw3.cc, *21zhf4ji.cc
