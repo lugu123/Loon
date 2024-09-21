@@ -102,4 +102,4 @@ http-response ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? script-pa
 http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine\?|mine\/ipad\?) script-path = https://raw.githubusercontent.com/lugu123/Loon/refs/heads/main/Scripts/Bilibili_remove_ads.js, requires-body = true, tag = 精简我的页面
 
 [MitM]
-hostname = app.bilibili.com, api.bilibili.com, 
+hostname = -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bili*.*, *.bilibili.*, grpc.biliapi.net,*biliapi.net 
