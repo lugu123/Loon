@@ -6,7 +6,7 @@
 #!system = 
 #!system_version = 15
 #!loon_version = 3.2.1(745)
-#!homepage = https://www.nsloon.com/openloon/import?plugin=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Bilibili_remove_ads.plugin
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Bilibili_remove_ads.plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Bilibili.png
 #!date = 2024-09-04 16:21:40
 
