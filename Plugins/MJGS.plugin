@@ -1,7 +1,12 @@
 #!name=面具公社
 #!desc=视频解锁
+#!author=LiKai
+#!openUrl = https://github.com/lugu123/Loon/tree/670be1f13a38f5ebf634a50658b121d1d04a8279/Plugins
+#!tag = 功能增强
+#!homepage = https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/MJGS.js
+#!date = 2024-09-22 18:51:00
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/ssa.png
-
+#加上抓包的视频地址如https://gnjk.phvyy.com/api/index.m3u8？
 [Rewrite]
 #游戏
 ^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/request_game\/v3\/game\/list - reject-dict
