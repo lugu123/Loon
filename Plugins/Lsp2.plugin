@@ -1,0 +1,14 @@
+#!name=绿色软件通杀2
+#!desc= Safari浏览器播放，50度灰网页内可直接播放，汤头条和小蓝视频需进行跳转后播放；海角社区,91pron,91短视频,暗网禁区,黑料社,51动漫,妻友,每日大赛,tiktok成人版,AI色色,水果派,pronhub等APP内直接观看无需跳转
+#!author=LiKai
+#!openUrl = https://github.com/lugu123/Loon/tree/670be1f13a38f5ebf634a50658b121d1d04a8279/Plugins
+#!tag = 功能增强
+#!homepage = https://raw.githubusercontent.com/lugu123/Loon/refs/heads/main/Plugins/Lsp2.plugin
+#!date = 2024-09-22 18:37:00
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/ssa.png
+
+[Script]
+http-request ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? script-path=https://raw.githubusercontent.com/lugu123/Loon/refs/heads/main/Scripts/Lsp2.js, tag=绿色软件通杀2
+
+[MITM]
+hostname = *play.*.cn, long.*.cn
