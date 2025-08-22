@@ -16,7 +16,7 @@
 #节点
 proxies:
   - {"name":"dxy3884-自动分流","type":"vmess","server":"v2.dxy5213.top","port":3884,"cipher":"auto","uuid":"160c60c9-d66a-43cd-a72a-9836de7fb26b","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t7z.cupid.iqiyi.com"}}}
-  - {"name":"dxy国内G口-80-免流","type":"vmess","server":"ml.dxy5213.top","port":80,"cipher":"auto","uuid":"160c60c9-d66a-43cd-a72a-9836de7fb26b","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["t7z.cupid.iqiyi.com"]}}}
+
 proxy-groups:
 #分流分组
   - {name: 手动切换, type: select, include-all: true, icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
