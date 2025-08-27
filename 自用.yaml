@@ -16,7 +16,8 @@
 #节点
 proxies:
   - {"name":"dxy3884-自动分流","type":"vmess","server":"v2.dxy5213.top","port":3884,"cipher":"auto","uuid":"160c60c9-d66a-43cd-a72a-9836de7fb26b","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"t7z.cupid.iqiyi.com"}}}
-
+  - {"name": "镇江联通 02 | tcp","type": "vmess","server": "103.56.63.253","port": 80,"uuid": "2065efaa-bcd1-4e4f-b4a7-ff2e5060c196","alterId": 0,"cipher": "auto","udp": true,"network": "http","http-opts": {"path": ["/"],"method": "POST","headers": {"Connection": ["keep-alive"],"Host": ["t7z.cupid.iqiyi.com"],"User-Agent": ["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"]}}}
+  - {"name":"新加坡 02","type":"vmess","server":"02c5befd-3194-578f-f2d0-df14f746c16b.connection.rest","port":80,"uuid":"2065efaa-bcd1-4e4f-b4a7-ff2e5060c196","alterId":0,"cipher":"auto","udp":true,"network":"http","http-opts":{"path":["/"],"method":"POST","headers":{"Connection":["keep-alive"],"Host":["t7z.cupid.iqiyi.com"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"]}}}
 proxy-groups:
 #分流分组
   - {name: 手动切换, type: select, include-all: true, icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Static.png }
@@ -51,3 +52,4 @@ rules:
   - RULE-SET,Download,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流
+e
